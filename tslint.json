@@ -1,0 +1,3 @@
+{
+  "extends": "@marblecore/tslint-configuration"
+}

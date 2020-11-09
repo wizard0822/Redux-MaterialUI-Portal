@@ -1,0 +1,21 @@
+{
+  "clusters": [
+    {
+      "id": "772ac7d4a39d9a1366cc97d512dc6021181c11fe572e8d7c33ec068bef4484d2",
+      "nodes": [
+        {
+          "id": "153d443400ed44cc3f7f60ae99b13c991b1979c64750c4d2f764d34e480331b9"
+        }
+      ]
+    },
+    {
+      "id": "057e7a1198302e667b40e99e4ac7088d7de40753f5b813c280810c2e3f6c04d0",
+      "nodes": [
+        {
+          "id": "1ddcb46e703e56bf69da062335addee8cb6025937962591c3fda0f2973ef2a0f"
+        }
+      ]
+    }
+  ],
+  "editor": { "name": "tripetto", "version": "1.7.1" }
+}

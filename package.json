@@ -1,0 +1,82 @@
+{
+  "name": "tripetto-example-react-material-ui",
+  "title": "Tripetto example (React + Material-UI)",
+  "version": "1.0.0",
+  "description": "Demo for implementing Tripetto using React and Material-UI.",
+  "license": "MIT",
+  "private": true,
+  "homepage": "https://gitlab.com/tripetto/examples/react-material-ui",
+  "author": {
+    "name": "Mark van den Brink",
+    "email": "mark@vandenbr.ink",
+    "url": "http://mark.vandenbr.ink"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://gitlab.com/tripetto/examples/react-material-ui.git"
+  },
+  "bugs": {
+    "url": "https://gitlab.com/tripetto/examples/react-material-ui/issues"
+  },
+  "scripts": {
+    "start": "tripetto ./static/demo.json --tutorial",
+    "format": "prettier --write \"src/**/*.ts\" \"src/**/*.tsx\" \"static/**/*.html\" \"src/**/*.less\" \"*.json\" \"!package-lock.json\" \"*.yml\" \"webpack.config.js\"",
+    "lint": "tslint -c ./tslint.json ./src/**/*.ts",
+    "test": "webpack-dev-server --mode development",
+    "make": "npm run format && npm run lint && webpack --mode production"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "@marblecore/tslint-configuration": "^5.12.1",
+    "@material-ui/core": "^4.4.1",
+    "@material-ui/icons": "^4.4.1",
+    "@types/react": "^16.9.2",
+    "@types/react-dom": "^16.9.0",
+    "@types/superagent": "^4.1.3",
+    "copy-webpack-plugin": "^5.0.4",
+    "css-loader": "^3.2.0",
+    "file-loader": "^4.2.0",
+    "less": "^3.10.3",
+    "less-loader": "^5.0.0",
+    "mini-css-extract-plugin": "^0.8.0",
+    "prettier": "^1.18.2",
+    "react": "^16.9.0",
+    "react-dom": "^16.9.0",
+    "style-loader": "^1.0.0",
+    "superagent": "^5.1.0",
+    "tripetto": "^1.7.1",
+    "tripetto-block-checkbox": "^2.0.2",
+    "tripetto-block-checkboxes": "^2.0.2",
+    "tripetto-block-dropdown": "^2.0.0",
+    "tripetto-block-email": "^2.0.0",
+    "tripetto-block-number": "^2.0.0",
+    "tripetto-block-password": "^2.0.0",
+    "tripetto-block-radiobuttons": "^2.0.0",
+    "tripetto-block-text": "^2.0.0",
+    "tripetto-block-textarea": "^2.0.0",
+    "tripetto-block-url": "^2.0.0",
+    "tripetto-collector": "^1.7.0",
+    "ts-loader": "^6.0.4",
+    "tslint": "^5.20.0",
+    "typeface-roboto": "0.0.75",
+    "typescript": "^3.6.2",
+    "webpack": "^4.39.3",
+    "webpack-cli": "^3.3.8",
+    "webpack-dev-server": "^3.8.0"
+  },
+  "tripetto": {
+    "blocks": [
+      "tripetto-block-checkbox",
+      "tripetto-block-checkboxes",
+      "tripetto-block-dropdown",
+      "tripetto-block-email",
+      "tripetto-block-number",
+      "tripetto-block-password",
+      "tripetto-block-radiobuttons",
+      "tripetto-block-text",
+      "tripetto-block-textarea",
+      "tripetto-block-url"
+    ],
+    "noFurtherLoading": true
+  }
+}
